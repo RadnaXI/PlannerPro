@@ -13,7 +13,7 @@ db.on('error', console.error.bind(console, 'Chyba při připojování k databáz
 db.once('open', () => {
   console.log('Úspěšné připojení k databázi');
 
-  // Zde můžete provádět operace s databází, např. vytváření nových událostí
+  // operace s databází
   const newEvent = new Event({
     name: 'Název události',
     date: new Date(),
